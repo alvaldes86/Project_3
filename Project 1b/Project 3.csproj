@@ -74,6 +74,9 @@
       <DependentUpon>Vaccinated.cs</DependentUpon>
     </Compile>
     <Compile Include="Vaccination.cs" />
+    <EmbeddedResource Include="CommunityTransmission.resx">
+      <DependentUpon>CommunityTransmission.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
